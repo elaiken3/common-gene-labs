@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>With You — Common Gene Labs</title>
+  <meta name="description" content="With You is a gentle companion for moments of overwhelm and getting started — built by Common Gene Labs." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="mark" aria-hidden="true">WY</div>
+        <div class="brandtext">
+          <div class="name">With You</div>
+          <div class="tag">A Common Gene Labs project</div>
+        </div>
+      </div>
+
+      <nav class="links" aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="../#beliefs">Beliefs</a>
+        <a href="../#work">Work</a>
+        <a href="./">With You</a>
+        <a href="../about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container heroGrid">
+        <div>
+          <p class="kicker">Product</p>
+          <h1>With You</h1>
+          <p class="lede">
+            With You is a calm, supportive space for moments of overwhelm, task paralysis,
+            and getting started. Designed for ADHD brains — diagnosed or self-identified —
+            and anyone who’s ever struggled at the starting line.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn primary" href="#what">What it does</a>
+            <a class="btn" href="#principles">Design principles</a>
+          </div>
+
+          <div class="meta">
+            <span class="pill">Gentle structure</span>
+            <span class="pill">Low pressure</span>
+            <span class="pill">Start small</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardTop">
+            <div class="cardTitle">Built by</div>
+            <div class="cardBadge">Common Gene Labs</div>
+          </div>
+          <p class="cardBody">
+            This project is intentionally calm: fewer features, clearer choices, and support that feels human.
+          </p>
+          <div class="cardFoot">
+            <span class="small">Want to help test?</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <a href="../#contact" class="small link">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what" class="section">
+      <div class="container">
+        <h2>What it does</h2>
+        <div class="grid2">
+          <div class="panel">
+            <h3>Capture without pressure</h3>
+            <p>
+              Get things out of your head quickly, then decide what matters now —
+              without turning your brain into an inbox you can’t keep up with.
+            </p>
+          </div>
+          <div class="panel">
+            <h3>Choose one next step</h3>
+            <p>
+              Reduce the moment of “where do I even start?” into a single, doable action.
+              The goal is a first step, not a perfect plan.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:14px;">
+          <h3>When it helps</h3>
+          <ul class="list">
+            <li>Overwhelm and task paralysis</li>
+            <li>Starting friction</li>
+            <li>Too many open loops</li>
+            <li>Gentle structure for focus</li>
+            <li>“I just need someone with me” moments</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principles" class="section">
+      <div class="container">
+        <h2>Design principles</h2>
+        <div class="grid3">
+          <div class="panel">
+            <h3>Calm over noise</h3>
+            <p>We keep the interface quiet so you can hear yourself think.</p>
+          </div>
+          <div class="panel">
+            <h3>Support, not judgment</h3>
+            <p>No streaks, shame, or “you failed” messaging.</p>
+          </div>
+          <div class="panel">
+            <h3>Start small</h3>
+            <p>A first step is success. Momentum comes later.</p>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:14px;">
+          <h3>Status</h3>
+          <p class="small muted">
+            With You is currently in early development/testing. If you’d like updates or early access, use the contact link.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <span class="small muted">© <span id="year"></span> With You</span>
+      <span class="small muted">A Common Gene Labs project</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
