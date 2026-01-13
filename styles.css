@@ -61,6 +61,17 @@ a:hover{ text-decoration: underline; }
 }
 .brandtext .name{ font-weight: 700; }
 .brandtext .tag{ color: rgba(218,211,204,.85); font-size: 12px; margin-top: 2px; }
+.brand-wordmark {
+  height: 28px;   /* tweak 24–34px */
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .brand-wordmark {
+    height: 24px;
+  }
+}
 
 .links{ display:flex; gap: 16px; font-size: 14px; color: rgba(218,211,204,.90); }
 .links a{ padding: 8px 10px; border-radius: 10px; }
